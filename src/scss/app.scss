@@ -1,0 +1,17 @@
+h1 {
+    font-size: 4em;
+    transition: all 0.3s;
+    color: blue;
+    &:hover {
+        transform: translateX(50px);
+        color: red;
+    }
+}
+
+.bg {
+    // background-image: url(~@imgs/download.jpeg);
+    background-image: url("~images/download.jpeg");
+    background-size: cover;
+    width: 1000px;
+    height: 100px;
+}

@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es2017": true
+    },
+    // "extends": "eslint:recommended",
+    // "parser": "@babel/eslint-parser",
+    // "requireConfigFile": false
+
+    "parserOptions": {
+        "extends": "eslint:recommended",
+        "parser": "@babel/eslint-parser",
+        "sourceType": "module",
+        "requireConfigFile": false
+    },
+    "globals": {
+        "utils": "readonly",
+        "jQuery": "readonly",
+        "$": "readonly"
+    },
+    "rules": {
+        // "no-undef": "warn",
+        "semi": ["error", "always"]
+    }
+}

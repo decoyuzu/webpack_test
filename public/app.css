@@ -1,0 +1,22 @@
+﻿/*!******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/app.scss ***!
+  \******************************************************************************************************************************************************/
+h1 {
+  font-size: 4em;
+  transition: all 0.3s;
+  color: blue;
+}
+h1:hover {
+  -webkit-transform: translateX(50px);
+          transform: translateX(50px);
+  color: red;
+}
+
+.bg {
+  background-image: url(images/download.jpeg);
+  background-size: cover;
+  width: 1000px;
+  height: 100px;
+}
+
+/*# sourceMappingURL=app.css.map*/
